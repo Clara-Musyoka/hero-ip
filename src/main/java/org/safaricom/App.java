@@ -20,7 +20,7 @@ public class App {
         if (process.environment().get("PORT") != null) {
             port = Integer.parseInt(process.environment().get("PORT"));
         } else {
-            port = 4000;
+            port = 4567;
         }
         Spark.port(port);
         get("/", (request, response) -> {
@@ -72,7 +72,7 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
-        get("/heroes/:id", (request, reponse)-> {
+        get("/heroes/:id", (request, response)-> {
             Map<String,Object>model = new HashMap<String, Object>();
             Hero hero = Hero.find(Integer.parseInt(request.params(":id")));
             model.put("hero",hero);

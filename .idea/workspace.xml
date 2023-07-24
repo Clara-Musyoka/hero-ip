@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da8ad13-5773-4727-9f60-3e6b38a7259a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hero-form.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hero.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/heroes.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squad-form.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squad-heroes-form.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squad-heroes-success.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squad-success.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squad.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squads.vtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/success.vtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/safaricom/HeroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/safaricom/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/safaricom/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/safaricom/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/safaricom/Squad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/safaricom/Squad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/safaricom/VelocityTemplateEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/safaricom/VelocityTemplateEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squads.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squads.vtl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,17 +63,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.safaricom.Main" />

@@ -1,7 +1,10 @@
-<h1>All Heroes</h1>
+<h1>$squad.getName() Heroes:</h1>
+
 <ul>
-  #foreach ($hero in $heroes)
-    <li><a href="/heros/$hero.getId()">$hero.getName()</a></li>
+  #foreach($hero in $squad.getHeroes())
+   <li>$hero.getName()</li>
   #end
 </ul>
-<a href="/heroes/new">Add New hero</a>
+
+<a href="/squads/$squad.getId()/heroes/new">Add a new hero</a>
+<a href="/squads">All squads</a>
