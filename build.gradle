@@ -1,9 +1,12 @@
 plugins {
     id 'java'
+    id 'application'
 }
-
+archivesBaseName = "week-two-ip"
 group = 'org.safaricom'
 version = '1.0-SNAPSHOT'
+mainClassName = "App"
+
 
 repositories {
     mavenCentral()
@@ -14,11 +17,14 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation 'org.postgresql:postgresql:42.6.0'
     implementation 'org.apache.spark:spark-core_2.13:3.4.0'
-    implementation 'com.sparkjava:spark-template-handlebars:2.7.1'
-    implementation 'org.apache.velocity:velocity:2.2'
+    implementation 'org.apache.velocity:velocity:1.7'
     testImplementation 'org.slf4j:slf4j-simple:2.0.7'
     implementation 'org.sql2o:sql2o:1.6.0'
+    implementation 'com.sparkjava:spark-core:2.3'
 }
+
+
+
 
 test {
     useJUnitPlatform()
