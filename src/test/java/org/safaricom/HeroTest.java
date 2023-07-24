@@ -1,20 +1,22 @@
 package org.safaricom;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class HeroTest {
 
-    @Before
+    @BeforeEach
     public void setUp() {
         // Set up any necessary test data or configurations before each test
         // For example, you can initialize the database connection here
         // or create a test-specific instance of DB.sql2o.
     }
 
-    @After
+    @AfterEach
     public void tearDown() {
         // Clean up any resources or configurations after each test
         // For example, you can close the database connection here.
