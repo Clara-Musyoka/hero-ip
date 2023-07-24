@@ -3,8 +3,15 @@
 Description: A simple application whereby the user can create heroes and squads .
 
 The user will enter a hero , give them  attributes such as power and age and from there they will assign the hero a squad where he and his fellow comrades shall reside.
-
+## Author
+Clara Musenya Musyoka
 ## BDD
+Create a Hero object: At the very least, they should have a name, age, special power and weakness. Special powers and weaknesses could be freely assignable or you may offer users a pre-determined set to choose from.
+
+Create a Squad object: They should have a max size, name, and a cause they're are dedicated to fighting (sexism, computer illiteracy, not covering your mouth when you sneeze, hogging bus seats with your backpack, passive-aggressive post-it notes, etc).
+
+Allow users to assign Heros to a Squad. Each hero can only participate in one Squad at a time.
+
 
 ## Setup
 
@@ -24,5 +31,8 @@ The user will enter a hero , give them  attributes such as power and age and fro
 * Sql Database
 * 
 
-## Author
-Clara Musenya Musyoka 
+
+## License
+
+- _MIT License:_
+- Copyright (c) 2022 **Clara Musyoka**
