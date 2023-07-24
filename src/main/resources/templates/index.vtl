@@ -1,0 +1,51 @@
+<h1>The Isrealites</h1>
+
+<h2>All Heroes:</h2>
+#if($squads)
+<p>Click on a Squad to see its heroes: </p>
+<ul>
+    #foreach ($squad in $squads)
+    <li><a href="/squads/squad.getId()">squad.getName()</a></li>
+    #end
+</ul>
+#else
+<p>There are no squads yet!</p>
+#end
+
+<h2>New squad:</h2>
+
+<form action="/squads" method="post">
+<label for="name"squad name</label>
+<input id="name" name="name" type="text">
+<button type="submit" class="btn btn-success">Add a Squad</button>
+</form>
+
+
+<h2>New Hero</h2>
+
+<form action="/heroes" method="post">
+<label for="squadId">Select A squad</label>
+<select id=squadId" name=squadId" type="text">
+    #foreach($squad in $squads)
+        <option value="squad.getId">squad.getName()</option>
+    #end
+</select>
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age">
+
+        <label for="power">Power</label>
+        <input type="text" name="power" id="power">
+
+        <label for="weakness">Weakness</label>
+        <input type="text" name="weakness" id="weakness">
+
+    </div>
+    <button type="submit" class="btn btn-success">Add</button>
+</form>
+<a href="/squads">View Category List</a>
+<a href="/squads/new">Add a New Category</a>

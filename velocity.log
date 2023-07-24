@@ -1,0 +1,8 @@
+2023-07-24 19:06:31,475 - ResourceManager : unable to find resource 'templates/squads-form.vtl' in any resource loader.
+2023-07-24 19:06:31,482 - ResourceManager : unable to find resource 'templates/squads-form.vtl' in any resource loader.
+2023-07-24 19:06:31,482 - ResourceManager : unable to find resource 'templates/squads-form.vtl' in any resource loader.
+2023-07-24 19:06:31,482 - ResourceManager : unable to find resource 'templates/squads-form.vtl' in any resource loader.
+2023-07-24 19:06:31,483 - #parse(): cannot find template 'templates/squads-form.vtl', called at templates/layout.vtl[line 9, column 7]
+2023-07-24 19:06:31,483 - #parse(): cannot find template 'templates/squads-form.vtl', called at templates/layout.vtl[line 9, column 7]
+2023-07-24 19:06:31,483 - #parse(): cannot find template 'templates/squads-form.vtl', called at templates/layout.vtl[line 9, column 7]
+2023-07-24 19:06:31,483 - #parse(): cannot find template 'templates/squads-form.vtl', called at templates/layout.vtl[line 9, column 7]
